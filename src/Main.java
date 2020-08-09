@@ -11,7 +11,7 @@ public class Main {
 		myList.add(3);
 		myList.add(6);
 		
-		System.out.println(myList.size());
+		// System.out.println(myList.size());
 		
 		// Write a loop to add 10000 numbers to myList
 		// First loop: add 10, second loop: add 20, etc...
@@ -20,9 +20,14 @@ public class Main {
 			myList.add(i * 10);
 		}
 		
-		System.out.println(myList.size());
+		// System.out.println(myList.size());
 	
 		
+		Person rich = new Person(35, "Rich", 'M');
+		Person pargol = new Person(32, "Pargol", 'F');
+		
+		// pargol.speak("Hello!");	
+		
+		rich.fallInLove(pargol);
 	}
-
 }
